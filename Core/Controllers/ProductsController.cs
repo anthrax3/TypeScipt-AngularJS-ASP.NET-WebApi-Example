@@ -15,7 +15,6 @@ namespace Core.Controllers
             _productRepository = productRepository;
         }
 
-
         // GET api/values
         public async Task<IEnumerable<Product>> Get(int? forProductId = null)
         {

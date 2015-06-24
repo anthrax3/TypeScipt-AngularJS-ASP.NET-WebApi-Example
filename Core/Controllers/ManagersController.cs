@@ -15,7 +15,6 @@ namespace Core.Controllers
             _manageRepository = manageRepository;
         }
 
-
         public async Task<IEnumerable<Manager>> Get(string search = null)
         {
             IEnumerable<Manager> managers;
